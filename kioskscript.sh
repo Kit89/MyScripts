@@ -75,9 +75,6 @@ echo -e "${red}Enabling secure wireless support...${NC}\n"
 apt-get -q=2 install --no-install-recommends wpasupplicant > /dev/null
 echo -e "${green}Done!${NC}\n"
 
-echo -e "${red}Installing a graphical user interface...${NC}\n"
-apt-get -q=2 install --no-install-recommends xorg nodm matchbox-window-manager > /dev/null
-# Hide Cursor
 apt-get -q=2 install --no-install-recommends unclutter > /dev/null
 echo -e "\n${green}Done!${NC}\n"
 
